@@ -1,0 +1,37 @@
+{
+  "name": "LUCY-HARUN",
+  "description": "Discord bot which displays CoinGecko crypto prices.",
+  "repository": "https://github.com/lucyharun",
+  "keywords": ["CoinGecko", "Discord", "Bot", "Crypto0", "Price", "Ticker"],
+  "env": {
+    "COIN_ID": {
+      "description": "ID of the token. probably ethereum",
+      "value": "creo-engine"
+    },
+    "DISCORD_TOKEN": {
+      "description": "API token of the Discord bot."
+    },
+    "PREFERRED_CURRENCY": {
+      "description": "Currency",
+      "value": "usd"
+    },
+    "CURRENCY_SYMBOL": {
+      "description": "$",
+      "value": "$"
+    },
+    "THOUSAND_SEPARATOR": {
+      "description": ".",
+      "value": "."
+    },
+    "SERVER_ID": {
+      "description": "ID SERVER DISCORD",
+      "value": "900293980284149780"
+    },
+    "UPDATE_FREQUENCY": {
+      "description": "How often should the price be refreshed",
+      "value": "1"
+    }
+
+  }
+
+}
